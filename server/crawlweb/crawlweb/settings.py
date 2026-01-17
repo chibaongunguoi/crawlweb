@@ -78,7 +78,7 @@ DATABASES = {
     "default": {
           "ENGINE": "django_mongodb_backend",
           "HOST": "mongodb://localhost:27017/pbl4_db",
-          "NAME": "sample_mflix",
+          "NAME": "pbl4_db",
     },
 }
 
