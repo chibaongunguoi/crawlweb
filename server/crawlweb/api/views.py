@@ -8,4 +8,4 @@ def index(request):
 
 def recent_jobs(request):
     jobs = JobDetail.objects.order_by("-collected_at")[:5]
-    return render(request, "recent_jobs.html", {"jobs": jobs})
+    return render(request, "api/recent_jobs.html", {"jobs": jobs})
